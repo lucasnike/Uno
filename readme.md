@@ -71,7 +71,10 @@ Esse diretório contem todos os bots, os pré compilados que deixamos por padrã
 Esse arquivo é onde nosso programa faz tudo, é onde ele executa e usa todas as funções criadas nos outros arquivos de código fonte.
 
 ### Arquivo ./uno
-Esse arquivo
+Esse arquivo é o gerenciador do uno que foi disponibilizado pelos professores da disciplina. É ele que distribui as cartas e faz o jogo acontecer.
+
+### Arquivo Makefile
+Esse arquivo contem todas as instruções de compilação do nosso bot, basta digitar make no terminal que um bot nomeado inocente3 será gerado na pasta ./bin.
 
 ## Como executar o bot?
 Para executar e ver o bot em funcionamento é necessário ter uma distribuição linux instalada no seu computador, ou o WSL2 instalado no Windows, e o compilador gcc, isso é necessário pois o gerenciador do uno foi compilado para linux.
